@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Página Principal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style-imagenes.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="sidebar close">
+    <div class="logo-details">
+      <i class='bx bxl-opera bx-tada bx-rotate-90 opera-logo' style='color:#080808' id="opera-logo"></i>
+      <span class="logo_name" style='color:#080808'>Bienvenidos a la página principal</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="#">
+          <i class='bx bx-grid-alt'></i>
+          <span class="link_name">Panel</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="principal.html">Paguina principal</a></li>
+          <li><a href="panel.html">Flor</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-collection'></i>
+            <span class="link_name">Categoría</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow'></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Categoría</a></li>
+          <li><a href="videos.html">Videos</a></li>
+          <li><a href="imagenes.html">Imágenes</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="index.html">
+          <i class='bx bx-log-out'></i>
+          <span class="link_name">Salir</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="index.html">Salir</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="profile-details">
+      <div class="profile-content">
+        <img src="imagen/1.png" alt="Imagen de perfil">
+      </div>
+      <div class="name-job">
+        <div class="profile_name">Administrador</div>
+        <div class="job">Oscar Vega</div>
+      </div>
+      <i class='bx bx-log-out'></i>
+    </div>
+  </div>
+  <section class="home-section">
+    <div class="home-content">
+      <!-- Eliminado el icono de las tres rayas -->
+    </div>
+
+    <!-- Galería de Imágenes -->
+    <div class="gallery">
+      <div class="gallery_line">
+        <img src="https://picsum.photos/300/200?random=0"/>
+        <img src="https://picsum.photos/200/300?random=1"/>
+        <img src="https://picsum.photos/300/200?random=2"/>
+        <img src="https://picsum.photos/300/200?random=3"/>
+        <img src="https://picsum.photos/200/300?random=4"/>
+        <img src="https://picsum.photos/300/200?random=5"/>
+        <img src="https://picsum.photos/300/200?random=0"/>
+        <img src="https://picsum.photos/200/300?random=1"/>
+        <img src="https://picsum.photos/300/200?random=2"/>
+        <img src="https://picsum.photos/300/200?random=3"/>
+        <img src="https://picsum.photos/200/300?random=4"/>
+        <img src="https://picsum.photos/300/200?random=5"/>
+      </div>
+      <div class="gallery_line">
+        <img src="https://picsum.photos/200/300?random=6"/>
+        <img src="https://picsum.photos/300/200?random=7"/>
+        <img src="https://picsum.photos/200/300?random=8"/>
+        <img src="https://picsum.photos/300/200?random=9"/>
+        <img src="https://picsum.photos/300/200?random=10"/>
+        <img src="https://picsum.photos/300/200?random=11"/>
+        <img src="https://picsum.photos/200/300?random=6"/>
+        <img src="https://picsum.photos/300/200?random=7"/>
+        <img src="https://picsum.photos/200/300?random=8"/>
+        <img src="https://picsum.photos/300/200?random=9"/>
+        <img src="https://picsum.photos/300/200?random=10"/>
+        <img src="https://picsum.photos/300/200?random=11"/>
+      </div>
+      <div class="gallery_line">
+        <img src="https://picsum.photos/200/300?random=12"/>
+        <img src="https://picsum.photos/300/200?random=13"/>
+        <img src="https://picsum.photos/300/200?random=14"/>
+        <img src="https://picsum.photos/200/300?random=15"/>
+        <img src="https://picsum.photos/300/200?random=16"/>
+        <img src="https://picsum.photos/300/200?random=17"/>
+        <img src="https://picsum.photos/200/300?random=12"/>
+        <img src="https://picsum.photos/300/200?random=13"/>
+        <img src="https://picsum.photos/300/200?random=14"/>
+        <img src="https://picsum.photos/200/300?random=15"/>
+        <img src="https://picsum.photos/300/200?random=16"/>
+        <img src="https://picsum.photos/300/200?random=17"/>
+      </div>
+    </div>
+    <a class="Me" href="https://www.facebook.com/Oscarv1w?sfnsn=scwspwa&mibextid=RUbZ1f" target="_top">Oscar V</a>
+  </section>
+  <script src="script-imagenes.js"></script>
+  <script>
+    document.getElementById("opera-logo").addEventListener("click", function() {
+        document.querySelector(".sidebar").classList.toggle("close");
+    });
+</script>
+</body>
+</html>
+

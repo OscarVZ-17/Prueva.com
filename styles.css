@@ -1,0 +1,57 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: transparent;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.425);
+    padding: 50px;
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0%);
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    backdrop-filter: blur(10px); /* Agregada esta línea para el desenfoque */
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #b9242400;
+    border-radius: 5px;
+}
+
+.login-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000b3;
+    color: rgb(255 255 255);
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #017dff73;
+}
+
+.login-container p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
