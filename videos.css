@@ -238,25 +238,25 @@ html {
   transition: all 0.5s ease;
 }
 
-.sidebar.close.profile-details img {
+.sidebar.close .profile-details img {
   padding: 10px;
 }
 
-.sidebar.profile-details.profile_name,
-.sidebar.profile-details.job {
+.sidebar .profile-details .profile_name,
+.sidebar .profile-details .job {
   color: #faf8f8;
   font-size: 18px;
   font-weight: 500;
   white-space: nowrap;
 }
 
-.sidebar.close.profile-details i,
-.sidebar.close.profile-details.profile_name,
-.sidebar.close.profile-details.job {
+.sidebar.close .profile-details i,
+.sidebar.close .profile-details .profile_name,
+.sidebar.close .profile-details .job {
   display: none;
 }
 
-.sidebar.profile-details.job {
+.sidebar .profile-details .job {
   font-size: 12px;
 }
 
